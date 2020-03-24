@@ -17,9 +17,6 @@ namespace Microsoft.VisualStudio.ProjectSystem.VS.CSharp
         {
         }
 
-        public Guid ProjectTypeGuid
-        {
-            get { return ProjectType.LegacyCSharpGuid; }
-        }
+        public Guid ProjectTypeGuid => ProjectType.CSharpGuid;
     }
 }

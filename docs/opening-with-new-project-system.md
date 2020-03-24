@@ -111,7 +111,7 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Library1", "Library1.fsproj
 EndProject
 Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "Library2", "Library2.vbproj", "{629B0BD5-ADD4-46A9-85E2-0D75CA49DCCB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library3", "Library3.csproj", "{ADFEAAF5-225C-4E13-8B65-77057AAC44B8}"
+Project("{FAE04EC0-301F-11d3-BF4B-00C04F79EFBC}") = "Library3", "Library3.csproj", "{ADFEAAF5-225C-4E13-8B65-77057AAC44B8}"
 EndProject
 ```
 

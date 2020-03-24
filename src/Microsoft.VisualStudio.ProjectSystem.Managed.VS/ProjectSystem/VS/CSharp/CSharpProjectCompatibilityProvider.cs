@@ -10,10 +10,10 @@ namespace Microsoft.VisualStudio.ProjectSystem.VS.CSharp
     /// <summary>
     ///     Checks a legacy VB project for compatibility with the new project system.
     /// </summary>
-    [SupportedProjectTypeGuid(ProjectType.LegacyCSharp)]
+    [SupportedProjectTypeGuid(ProjectType.CSharp)]
     [Export(ExportContractNames.Extensions.SupportedProjectTypeGuid)]
     [Export(typeof(IFlavoredProjectCompatibilityProvider))]
-    [ProjectTypeGuidFilter(ProjectType.LegacyCSharp)]
+    [ProjectTypeGuidFilter(ProjectType.CSharp)]
     [AppliesTo(ProjectCapabilities.AlwaysApplicable)]
     internal class CSharpProjectCompatibilityProvider : IFlavoredProjectCompatibilityProvider
     {

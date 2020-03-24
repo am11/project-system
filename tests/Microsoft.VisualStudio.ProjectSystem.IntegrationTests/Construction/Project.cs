@@ -15,7 +15,7 @@ namespace Microsoft.VisualStudio.ProjectSystem.VS
     /// </summary>
     public sealed class Project : IEnumerable
     {
-        private static readonly Guid s_sdkProjectTypeGuid = Guid.Parse("9A19103F-16F7-4668-BE54-9A1E7A4F7556");
+        private static readonly Guid s_sdkProjectTypeGuid = Guid.Parse("FAE04EC0-301F-11d3-BF4B-00C04F79EFBC");
 
         private List<Project>? _referencedProjects;
         private List<PackageReference>? _packageReferences;

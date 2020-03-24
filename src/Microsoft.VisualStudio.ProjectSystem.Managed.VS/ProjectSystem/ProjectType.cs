@@ -31,24 +31,14 @@ namespace Microsoft.VisualStudio
         public static readonly Guid LegacyVisualBasicGuid = new Guid(LegacyVisualBasic);
 
         /// <summary>
-        ///     A <see cref="string"/> representing the C# project type based on the Common Project System (CPS).
+        ///     A <see cref="string"/> representing the C# project type.
         /// </summary>
-        public const string CSharp = "9A19103F-16F7-4668-BE54-9A1E7A4F7556";
+        public const string CSharp = "FAE04EC0-301F-11d3-BF4B-00C04F79EFBC";
 
         /// <summary>
         ///     A <see cref="Guid"/> representing the C# project type based on the Common Project System (CPS).
         /// </summary>
         public static readonly Guid CSharpGuid = new Guid(CSharp);
-
-        /// <summary>
-        ///     A <see cref="string"/> representing the legacy C# project type based on the native project system in csproj.dll.
-        /// </summary>
-        public const string LegacyCSharp = "FAE04EC0-301F-11d3-BF4B-00C04F79EFBC";
-
-        /// <summary>
-        ///     A <see cref="Guid"/> representing the legacy C# project type based on the native project system in csproj.dll.
-        /// </summary>
-        public static readonly Guid LegacyCSharpGuid = new Guid(LegacyCSharp);
 
         /// <summary>
         ///     A <see cref="string"/> representing the F# project type based on the Common Project System (CPS).
